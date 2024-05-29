@@ -1,0 +1,128 @@
+.TeamInfo{
+    margin: -10rem 6rem;
+    margin-bottom: 5rem;
+}
+
+.TeamInfo h1{
+    font-size: 3rem;
+}
+.first-member{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.second-member{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.member-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.member-text h2{
+    font-size: 2rem;
+}
+.member-text h4{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: grey;
+}
+.member-text h5{
+    margin-top: 10px;
+}
+.member-text p{
+    padding-bottom: 3px ;
+}
+.SocialIcons-1{
+    display: flex;
+    gap: 10px;
+}
+.SocialIcons-2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 55%;
+    margin-top: 1%;
+}
+.icon-link {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    color: #000000;
+    height: 45px;
+    width: 55px;
+    padding: 14px 10px 10px 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.icon {
+    font-size: 30px; /* Increased font size */
+    margin: -9px 0px;
+}
+.icon-link:hover{
+    box-shadow: inset 0 50px 0 0 #5CE1E6;
+    color: #000000;
+}
+.Image{
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: space-between;
+    z-index: -99;
+}
+.Image img{
+    width: 49%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: -1px 1px 68px -20px rgba(0, 0, 0, 0.20);
+}
+.Image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+@media screen and (max-width: 850px){
+    .TeamInfo{
+        margin: -14rem 2rem;
+        margin-bottom: 5rem;
+    }
+    .first-member{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .second-member{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .Image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .member-text{
+        width: 100%;
+    }
+    .Image img{
+        height: 250px;
+    }
+    .SocialIcons-1{
+        display: flex;
+        gap: 10px;
+        margin: 10px 10px 0 0;
+    }
+    .SocialIcons-2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 10px 10px 0 0;
+    }
+}

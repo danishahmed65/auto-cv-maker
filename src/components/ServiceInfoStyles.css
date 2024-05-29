@@ -1,0 +1,93 @@
+.service{
+    margin-top: -8rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #2a2a2a;
+}
+.service h1{
+    font-size: 3rem;
+}
+.Service-card{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    justify-content: center;
+}
+.s-card{
+    width: 100%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+.s-image{
+    overflow: hidden;
+    border-radius: 8px;
+}
+.s-image img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.s-image:hover img{
+    transform: scale(1.3);
+}
+.s-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+}
+.s-card a{
+    display: inline-block;
+    margin: 8px 4px 0 0;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: #2a2a2a;
+    background-color: #5CE1E6;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.s-card a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px){
+
+    .service{
+        margin-top: -14rem;
+        margin-bottom: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .service h1{
+        font-size: 3rem;
+        line-height: 4rem;
+        
+    }
+    .Service-card{
+        margin-top: 3rem;
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        padding: 5px 5px 3px 3px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        justify-content: center;
+    }
+    .s-card{
+       width: 100%;
+       margin-bottom: 1.5rem;
+    }
+    .s-card a{
+        margin-top: 1rem;
+    }
+    .s-card p{
+        margin-top: 1rem;
+    }
+
+}

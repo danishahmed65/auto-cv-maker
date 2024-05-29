@@ -1,0 +1,58 @@
+.mvv-container{
+    max-width: 95%;
+    margin: 1.5rem;
+    border: 6px solid #41a0a9;
+    border-radius: 10px;
+}
+.mvv-container .mvv-block{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mvv-container .mvv-block .Image{
+    flex: 0 0 auto;
+    width: 400px;
+   
+}
+.mvv-container .mvv-block .Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(66, 192, 220, 0.3);
+}
+.mvv-container .mvv-block .content {
+    text-align: start; /* Align content to the start */
+    flex: 1; /* Take up remaining space */
+    padding: 0 1rem; /* Add padding for spacing */
+}
+  
+.content {
+    margin-left: 2rem; /* Add margin to separate content from image */
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .mvv-container .mvv-block {
+      flex-direction: column; /* Stack blocks vertically on smaller screens */
+      align-items: center; /* Center align items */
+    }
+    
+    .mvv-container .mvv-block .Image {
+      width: 100%; /* Full width for images */
+      margin-bottom: 1rem; /* Add some space between blocks */
+    }
+    
+    .mvv-container .mvv-block .content {
+      width: 100%; /* Full width for content */
+      text-align: center; /* Center align content */
+    }
+    
+    .content {
+      margin: 0; /* Reset margin for content */
+    }
+  }
+  
+
+

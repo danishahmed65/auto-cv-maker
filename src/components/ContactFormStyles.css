@@ -1,0 +1,51 @@
+.form-container{
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.form-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+.form-container input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: 2px solid turquoise;
+}
+.form-container textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: 2px solid turquoise;
+}
+.form-container button{
+    background: #2a2a2a;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+
+    .form-container{
+       margin-top: -8rem;
+       margin-bottom: 4rem;
+       margin-left: 2rem;
+       margin-right: 2rem;
+    }
+
+    .form-container form{
+        padding-top: 4rem;
+        width: 100%;
+    }
+
+    .form-container button{
+        background: #2a2a2a;
+        color: #fff;
+    }
+    
+}

@@ -1,0 +1,35 @@
+.copyright-container {
+    text-align: center;
+    margin-top: -6px;
+    font-size: 14px;
+    color: #000000; /* Adjust color as needed */;
+    background: linear-gradient(#000000, turquoise);
+  }
+
+#P2 {
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: #25292b;
+    color: #ffffff; 
+} 
+  
+#P1 {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+  .copyright-container a {
+    color: #000000; 
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .copyright-container a:hover {
+    color: #ffffff; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .copyright-container {
+      font-size: 12px;
+    }
+  }

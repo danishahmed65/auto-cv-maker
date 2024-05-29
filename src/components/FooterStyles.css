@@ -1,0 +1,61 @@
+.footer{
+    padding: 4rem 6rem;
+    margin-top: -0.36rem;
+    background-image: url(./Assets/services.png);
+    color: #fff;
+}
+.top{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top p{
+    color: turquoise;
+}
+.top i{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-left: 0.8rem;
+}
+.top i:hover{
+    cursor: pointer;
+    color:turquoise;
+}
+.bottom{
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+.bottom a{
+    text-decoration: none;
+    color: #fafafafa;
+    padding-bottom: 0.4rem;
+}
+.bottom a:hover{
+    color: turquoise;
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .footer i{
+        margin: 1rem 1rem 0 0;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    
+}
